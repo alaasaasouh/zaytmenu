@@ -1,0 +1,16 @@
+.qa/
+*.zip
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dependencies, build output, and local configuration
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
